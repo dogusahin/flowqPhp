@@ -29,8 +29,8 @@ function addStudent(array &$students, string $name, array $points = []): void {
         'name' => $name,
         'points' => $points
     ];
-}
-
+ }
+ 
 addStudent($students, 'Erdal Sahin', [89, 94, 81]);
 addStudent($students, 'Suleyman Sahin', [76, 85, 90]);
 
